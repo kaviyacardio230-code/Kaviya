@@ -1,0 +1,16 @@
+// Smooth scroll function
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+}
+
+// Animation effect for skills on scroll
+window.addEventListener("scroll", () => {
+  const skills = document.querySelectorAll(".skill");
+  skills.forEach(skill => {
+    const rect = skill.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 50) {
+      skill.style.transform = "translateY(0)";
+      skill.style.opacity = "1";
+    }
+  });
+});
