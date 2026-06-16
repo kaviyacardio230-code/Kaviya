@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaviya G | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+header{
+    padding:50px 20px;
+}
+
+.profile{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:4px solid #38bdf8;
+    object-fit:cover;
+}
+
+h1{
+    margin-top:15px;
+    color:#38bdf8;
+    font-size:2.2rem;
+}
+
+.subtitle{
+    color:#cbd5e1;
+    margin-top:10px;
+}
+
+section{
+    margin:30px auto;
+    width:90%;
+    max-width:800px;
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.project{
+    background:#334155;
+    margin:15px 0;
+    padding:15px;
+    border-radius:10px;
+}
+
+.skills{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#38bdf8;
+    color:black;
+    padding:8px 15px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 20px;
+    background:#38bdf8;
+    color:black;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    margin:20px;
+    color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="https://i.ibb.co/B5Y5J2wF/image-1781450488469.jpg"
+         alt="Kaviya Profile Photo"
+         class="profile">
+
+    <h1>Kaviya G</h1>
+    <p class="subtitle">College Student | Web Development Enthusiast</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Hello! I'm Kaviya, a college student passionate about web development,
+        coding, and creating user-friendly websites. I enjoy learning new
+        technologies and building creative projects.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Web Development</div>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>Responsive portfolio website built using HTML and CSS.</p>
+    </div>
+
+    <div class="project">
+        <h3>Web Development Projects</h3>
+        <p>Collection of mini projects and coding practice works.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+
+    <p>
+        📧 Email:
+        <a href="mailto:kaviyacardio230@gmail.com">
+            kaviyacardio230@gmail.com
+        </a>
+    </p>
+
+    <br>
+
+    <p>
+        💻 GitHub:
+        <a href="https://github.com/kaviyacardio230-code" target="_blank">
+            github.com/kaviyacardio230-code
+        </a>
+    </p>
+
+    <a href="https://github.com/kaviyacardio230-code"
+       target="_blank"
+       class="btn">
+       Visit My GitHub
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Kaviya G | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
